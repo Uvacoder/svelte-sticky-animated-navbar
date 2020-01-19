@@ -5,20 +5,14 @@
   export let name;
 </script>
 
-<style>
-main {
-  z-index: -100;
-}
-</style>
-
 <Header>
   <div slot="logo">
     <Logo />
   </div>
   <Navbar />
 </Header>
-<main>
 
+<main>
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, aspernatur
     praesentium non, aperiam dicta distinctio aliquid minus temporibus ullam
