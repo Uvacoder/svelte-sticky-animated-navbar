@@ -5,12 +5,9 @@
   export let name;
 </script>
 
-<Header>
-  <div slot="logo">
-    <Logo />
-  </div>
-  <Navbar />
-</Header>
+<Logo />
+<Navbar />
+<Header />
 
 <main>
   <p>

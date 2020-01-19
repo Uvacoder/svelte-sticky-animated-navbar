@@ -10,6 +10,7 @@
     width: 100%;
     transition: 0.5s;
     padding: 10px;
+    z-index: 1;
   }
   ul {
     list-style-type: none;

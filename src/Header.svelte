@@ -8,7 +8,4 @@
   }
 </style>
 
-<header>
-  <slot name="logo" />
-  <slot />
-</header>
+<header />

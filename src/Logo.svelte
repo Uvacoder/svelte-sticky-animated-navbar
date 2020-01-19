@@ -9,6 +9,7 @@
     padding: 10px;
     position: fixed;
     transition: 0.5s;
+    z-index: 1;
   }
   .small {
     width: 200px;
