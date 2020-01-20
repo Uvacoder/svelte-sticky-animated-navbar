@@ -2,7 +2,7 @@
   let y;
 </script>
 
-<style>
+<style lang="scss">
   nav {
     position: fixed;
     text-align: right;
@@ -14,11 +14,12 @@
   }
   ul {
     list-style-type: none;
-    font-size: 2rem;
+
+    li {
+      display: inline-block;
+    }
   }
-  li {
-    display: inline;
-  }
+
   .pin {
     background: rgba(0, 0, 0, 0.6);
     color: white;

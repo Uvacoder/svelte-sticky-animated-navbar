@@ -2,7 +2,7 @@
   let y;
 </script>
 
-<style>
+<style lang="scss">
   img {
     width: 400px;
     max-width: 40vw;

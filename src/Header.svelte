@@ -1,4 +1,4 @@
-<style>
+<style lang="scss">
   header {
     height: 50vh;
     background-image: url(/background.jpg);
