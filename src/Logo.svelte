@@ -12,7 +12,7 @@
     z-index: 1;
   }
   .small {
-    width: 200px;
+    width: 14rem;
   }
 </style>
 

@@ -14,6 +14,7 @@
   }
   ul {
     list-style-type: none;
+    font-size: 2rem;
   }
   li {
     display: inline;
