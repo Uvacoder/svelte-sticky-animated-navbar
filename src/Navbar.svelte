@@ -8,7 +8,7 @@
     text-align: right;
     float: right;
     width: 100%;
-    transition: 0.5s;
+    transition: all 0.5s;
     padding: 10px;
     z-index: 1;
   }

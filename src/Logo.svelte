@@ -8,7 +8,7 @@
     max-width: 40vw;
     padding: 10px;
     position: fixed;
-    transition: 0.5s;
+    transition: all 0.5s;
     z-index: 1;
   }
   .small {
