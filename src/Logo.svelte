@@ -1,5 +1,7 @@
 <script>
+  import { dark } from "./store.js";
   let y;
+  $: logo = $dark ? "/logo-dark.png" : "/logo.png";
 </script>
 
 <style lang="scss">
@@ -16,6 +18,6 @@
   }
 </style>
 
-<img src="/logo.png" alt="logo" class:small={y > 50} />
+<img src={logo} alt="Logo" class:small={y > 50} />
 
 <svelte:window bind:scrollY={y} />

@@ -1,16 +1,22 @@
 <script>
+  import { dark } from "./store.js";
   let checked;
   $: if (checked === true) {
-      trans();
-      document.documentElement.setAttribute("data-theme", "dark");
+    trans();
+    $dark = true;
+    document.documentElement.setAttribute("data-theme", "dark");
   } else {
-      trans();
-      document.documentElement.setAttribute("data-theme", "light");
+    trans();
+    $dark = false;
+    document.documentElement.setAttribute("data-theme", "light");
   }
   const trans = () => {
-      document.documentElement.classList.add("transition");
-      window.setTimeout(()=> document.documentElement.classList.remove("transition"), 1000);
-  }
+    document.documentElement.classList.add("transition");
+    window.setTimeout(
+      () => document.documentElement.classList.remove("transition"),
+      1000
+    );
+  };
 </script>
 
 <style lang="scss">
