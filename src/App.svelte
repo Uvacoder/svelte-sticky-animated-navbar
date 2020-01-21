@@ -14,6 +14,9 @@
 <Header />
 
 <main>
+<div class="center">
+  <h2>Some cool title</h2>
+  </div>
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, aspernatur
     praesentium non, aperiam dicta distinctio aliquid minus temporibus ullam
