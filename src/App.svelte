@@ -2,11 +2,12 @@
   import Header from "./Header.svelte";
   import Navbar from "./Navbar.svelte";
   import Logo from "./Logo.svelte";
+  import Toggle from "./Toggle.svelte";
   export let name;
 </script>
 
 <style lang="scss" global>
-  @import "./style/global.scss";
+  @import "./global.scss";
 </style>
 
 <Logo />
@@ -14,8 +15,11 @@
 <Header />
 
 <main>
-<div class="center">
-  <h2>Some cool title</h2>
+  <div class="center">
+    <h2>Hello {name}</h2>
+  </div>
+  <div class="center">
+    <Toggle />
   </div>
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, aspernatur
