@@ -14,6 +14,8 @@ html {
   --color-heading: #3d5af1;
   --color-text: #0e153a;
 
+  --image-bg: url(/bg-light.jpg);
+
   &.transition,
   &.transition *,
   &.transition *:before,
@@ -30,6 +32,8 @@ html[data-theme="dark"] {
   --color-bg-panel: #086972;
   --color-heading: #17b978;
   --color-text: #a7ff83;
+
+  --image-bg: url(/bg-dark.jpg);
 }
 
 body {
